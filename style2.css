@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&family=Poppins:wght@500&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #051933;
+    background-repeat: no-repeat;
+}
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px; 
+    background-color: #051933;
+}
+
+.cabecalho-imagem{
+    height: 25px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#fff;
+}
+
+a:hover{
+    color: #167bf7;
+}
+
+label{
+    color: #167bf7;
+}
+
+h4{
+    font-size: 1rem;
+    font-family: 'Roboto Mono',monospace;
+}
+
+p{
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:#093366;
+    width: 65%;
+    border:solid 1px;
+    border-color: #6bd1ff;
+    border-radius:5px 5px 5px 5px;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: auto;
+    color: #6bd1ff;
+}
+
+
+.imagens-midias{
+    height: 45px;
+    width: 45px;
+    position:relative;
+}
+
+.imagens-midias:hover{
+    top:-2px;box-shadow:0 2px 2px #031326;
+    transition: all .2s ease-in-out;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo-pag2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color:#167bf7;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;   
+    width: 65%;
+    margin: auto;
+}
+
+#gac{
+    height: 45px;
+}
+
+footer{
+    background-color: #031326;   
+}
+
